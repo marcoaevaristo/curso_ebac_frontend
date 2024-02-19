@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Telefonica</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Agenda Telefonica</h1>
+        </header>
+        <form id="form-entrada">
+            <input id="nome-contato" type="text" required placeholder="Nome do contato" />
+            <input id="numero-contato" type="number" required placeholder="Numero do contato" />
+            <button type="submit">Adicionar +</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Nome do Contato
+                    </th>
+                    <th>
+                        Telefone
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td id="contato-salvo">
+                        ---
+                    </td>
+                    <td id="numero-salvo">
+                        ---
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
