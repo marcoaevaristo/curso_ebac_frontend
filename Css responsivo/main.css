@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #868484;
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 16x;
+    /* background-color: #aaaaaa; */
+}
+
+header,
+footer{
+    background-color: #a59ae7;
+    padding: 1.5rem;
+}
+
+header{
+    color: #fff;
+    font-family: 'Protest Strike', sans-serif;
+    text-transform: uppercase;
+    font-size: 26px;
+    letter-spacing:4px;
+}
+
+.container-top{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.menu-burguer{
+    width: 2em;
+    cursor: pointer;
+}
+
+.menu-burguer span{
+    height: 3px;
+    width: 100%;
+    background-color: #3b4d4d;
+    display: block;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+nav{
+    display: none;
+    background-color: #b3acac;
+    border: 1px solid #1e2020;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.marcas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.marcas img{
+    width: 60px;
+}
+
+/* ------------------- */
+.sobre h2{
+    font-family: 'Protest Strike', sans-serif;
+    text-transform:uppercase;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.sobre{
+    display: flex;
+    padding: 24px 0px;
+    font-family: 'Oswald', sans-serif;
+    text-transform:uppercase;
+    font-weight: 400;
+    color: #fff;
+}
+
+.sobre{
+    margin-bottom: 56px;
+}
+
+.sobre img{
+    margin-right: 1.5rem;
+}
+
+.line{
+    height: 4px;
+    width: 100%;
+    background-color: #00ffb3;
+    margin: 10px 0;
+}
+
+.produtos h2{
+    font-family: 'Protest Strike', sans-serif;
+    text-transform:uppercase;
+    font-weight: 400;
+    margin-bottom: 18px;
+    color: #fff;
+    font-size: 2em;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    justify-content: space-between;
+    row-gap: 5%;
+}
+
+.card img{
+    width: 100%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    text-transform:uppercase;
+    font-weight: 400;
+    color: #fff;
+}
+
+.info button{
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #00ffb3;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+footer{
+    margin-top: 70px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+@media screen and (max-width: 640px){
+    header h1{
+        font-size: 1.4em;
+    }
+
+    .menu-burguer{
+        width: 1em;
+        cursor: pointer;
+    }
+
+    .sobre{
+        display: block
+    }
+
+    .sobre img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .sobre h2{
+        margin: 5px;
+        font-size: 20px;
+        padding-top: 5px;
+    }
+
+    .sobre p{
+        padding: 10px;
+    }
+
+    .produtos h2{
+        font-size: 20px;
+        margin: 5px;
+    }
+    .card{
+        display: block;
+        padding: 20px;
+    }
+
+    .card img{
+        width: 100%;
+    }
+    
+    .info button{
+        margin-bottom: 20px;
+    }
+    
+    footer{
+        margin-top: 100%;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width:1023px) {
+    header h1{
+        font-size: 2em;
+    }
+
+    .menu-burguer{
+        width: 1em;
+        cursor: pointer;
+    }
+
+    .sobre{
+        width: 96%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .sobre img{
+        margin: 0;
+        width: 100%;
+    }
+
+    .text-sobre{ 
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .sobre h2{
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .sobre p{
+        font-size: 1.5em;
+    }
+
+    .produtos h2{
+        margin-left: 20px;
+        font-size: 2em;
+    }
+
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2, 46%);
+        justify-content: space-around;
+        row-gap: 5%;
+    }
+
+    .card img{
+        width: 100%;
+    }
+    
+    footer{
+        margin-top: 100%;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+    }
+}
