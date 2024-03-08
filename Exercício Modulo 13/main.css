@@ -1,0 +1,83 @@
+header {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #428458;
+}
+
+#logo-ggs {
+    height: 80px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+ul {
+    padding-top: 8px;
+}
+
+section {
+    background-color: black;
+    padding-top: 16px;
+}
+
+#slider {
+    padding-top: 0;
+}
+
+#preco-cheio {
+    width: 100%;
+}
+
+#caixa-promo {
+    width: 25%;
+}
+
+#preco-promo {
+    width: 73%;
+}
+
+h5 {
+    padding-bottom: 16px;
+}
+
+.card-subtitle {
+    color: white;
+}
+
+.card {
+    margin-bottom: 16px;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+.linha-verde {
+    background-color: #428458;
+    width: 100%;
+    height: 2px;
+    margin: 24px 0;
+}
+
+footer {
+    background-color: #222529;
+    color: lightgray;
+    padding: 24px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    color: white;
+}
