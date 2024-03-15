@@ -4,6 +4,7 @@ body {
 
 .navbar {
     background-color: rgb(150, 146, 146);
+    color: #fff;
 }
 
 .navbar .nav .nav-link.active {
@@ -16,7 +17,7 @@ body {
 .navbar-brand:hover,
 .nav-profissional .nav-link.active:hover {
     transition: background-color 0.3s; /* Transição suave da cor de fundo */
-    color: #201f1f;
+    color: #f1eaea;
 }
 
 .carousel-indicators {
