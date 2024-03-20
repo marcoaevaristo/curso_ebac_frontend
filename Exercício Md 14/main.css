@@ -3,7 +3,7 @@ body {
 }
 
 .navbar {
-    background-color: rgb(150, 146, 146);
+    background-color: rgb(150, 146, 146); /* Cor de fundo desejada */
     color: #fff;
 }
 
